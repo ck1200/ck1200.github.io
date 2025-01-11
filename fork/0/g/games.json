@@ -1,54 +1,8 @@
 [
   {
-    "url": "/fork/game/?1v1.lol",
-    "imageSrc": "./1v1lol/1v1lol.jpg",
-    "name": "1v1.LOL"
-  },
-  {
-    "url": "/fork/game/?1v1.lol-method-2",
-    "imageSrc": "./1v1lol-2/2e29xb8j.bmp",
-    "name": "1v1.LOL [Method 2]"
-  },
-  {
-    "url": "/fork/game/?justfall.lol",
-    "imageSrc": "./just-fall/unnamed.png",
-    "name": "JustFall.LOL"
-  },
-  {
-    "url": "/fork/game/?roblox",
-    "imageSrc": "./Roblox/splash.png",
-    "name": "Roblox"
-  },
-  {
-    "url": "/fork/0/g/Roblox-Offline/",
-    "imageSrc": "./Roblox-Offline/splash.svg",
-    "name": "Roblox (WebGL)"
-  },
-  {
     "url": "/fork/game/?cluster-rush",
     "imageSrc": "https://raw.githubusercontent.com/OutRed/outred-assets-cdn.outred.org/main/cluster-rush/splash.png",
     "name": "Cluster Rush"
-  },
-  {
-    "url": "/fork/game/?flash-sonic",
-    "imageSrc": "https://e.snmc.io/lk/lv/x/1c866fe5a411e74065b43c3cec795696/10319151",
-    "name": "Flash Sonic"
-  },
-  {
-    "url": "/fork/game/?sonic-revert",
-    "imageSrc": "https://static.wikia.nocookie.net/fcoc-vs-battles/images/a/aa/Sonic_transparent.png",
-    "name": "Sonic Revert"
-  },
-  {
-    "url": "https://play.geforcenow.com/",
-    "imageSrc": "./Fortnite/splash.png",
-    "name": "Fortnite",
-    "requiresProxy": true
-  },
-  {
-    "url": "/fork/game/?subway-surfers",
-    "imageSrc": "./subway-surfers/unnamed.jpg",
-    "name": "Subway Surfers"
   },
   {
     "url": "/fork/0/g/giag/",
@@ -66,26 +20,6 @@
     "name": "Bottle Flip 3D"
   },
   {
-    "url": "tiny-fishing/",
-    "imageSrc": "tiny-fishing/splash.png",
-    "name": "Tiny Fishing"
-  },
-  {
-    "url": "/fork/0/g/whg/",
-    "imageSrc": "./whg/game/whg.png",
-    "name": "World's Hardest Game"
-  },
-  {
-    "url": "/fork/0/g/whg2/",
-    "imageSrc": "./whg2/game/whg2.jpg",
-    "name": "World's Hardest Game 2"
-  },
-  {
-    "url": "/fork/0/g/whg3/",
-    "imageSrc": "./whg3/game/whg3.jpg",
-    "name": "World's Hardest Game 3"
-  },
-  {
     "url": "/fork/0/g/slope/",
     "imageSrc": "./slope/game/splash.jpg",
     "name": "Slope"
@@ -96,19 +30,9 @@
     "name": "Slope 2"
   },
   {
-    "url": "/fork/0/g/slope-3/",
-    "imageSrc": "./slope-3/game/wmnjoql2.bmp",
-    "name": "Slope 3"
-  },
-  {
     "url": "/fork/0/g/tunnel-rush/",
     "imageSrc": "./tunnel-rush/game/splash.jpg",
     "name": "Tunnel Rush"
-  },
-  {
-    "url": "tunnel-rush2/",
-    "imageSrc": "tunnel-rush2/splash.webp",
-    "name": "Tunnel Rush 2"
   },
   {
     "url": "/fork/0/g/HexGL/",
@@ -119,11 +43,6 @@
     "url": "/fork/0/g/Hextris/",
     "imageSrc": "./Hextris/game/images/icons/transparent-192.png",
     "name": "Hextris"
-  },
-  {
-    "url": "/fork/0/g/tetris/",
-    "imageSrc": "https://play-lh.googleusercontent.com/za2Nu_qjMw5GzWfbzet4zeiZT1xvJlTRi4NJzGpJWX9grxFAAko5dGBwe7qeqK01THw",
-    "name": "Tetris"
   },
   {
     "url": "/fork/0/g/paperio2/",
@@ -146,11 +65,6 @@
     "name": "Angry Birds"
   },
   {
-    "url": "/fork/0/g/AngryBirdsRadox/",
-    "imageSrc": "./AngryBirdsRadox/game/splash.png",
-    "name": "Angry Birds Radox"
-  },
-  {
     "url": "./AngryBirdsWebGL/",
     "imageSrc": "https://static.wikia.nocookie.net/angrybirds/images/b/bd/AB_Reloaded_Icon.png",
     "name": "Angry Birds (WebGL)"
@@ -170,20 +84,11 @@
     "imageSrc": "CrossyRoad-remake/splash.jpg",
     "name": "Crossy Road (Remake)"
   },
-  {
-    "url": "/fork/0/g/minecraft-webgl/",
-    "imageSrc": "./minecraft-webgl/game/splash.png",
-    "name": "Minecraft (WebGL)"
-  },
+
   {
     "url": "/fork/0/g/minecraft/",
     "imageSrc": "https://play-lh.googleusercontent.com/VSwHQjcAttxsLE47RuS4PqpC4LT7lCoSjE7Hx5AW_yCxtDvcnsHHvm5CTuL5BPN-uRTP",
     "name": "Minecraft"
-  },
-  {
-    "url": "/fork/0/g/PrecisionClient/",
-    "imageSrc": "https://raw.githubusercontent.com/nate-games/ng-assets/e73fb5c62b95d5fd90e4d21c4e90b805f5037ed6/PrecisionClient/game/splash.jpg",
-    "name": "Precision Client (MC)"
   },
   {
     "url": "eaglercraft/",
@@ -204,26 +109,6 @@
     "url": "/fork/0/g/mchacks/",
     "imageSrc": "./mchacks/game/bg_main.png",
     "name": "MC Classic (HACKS)"
-  },
-  {
-    "url": "motox3m/",
-    "imageSrc": "motox3m/splash.jpg",
-    "name": "Moto X3M"
-  },
-  {
-    "url": "papas-doggeria/",
-    "imageSrc": "papas-doggeria/image.png",
-    "name": "Papa's Hot Doggeria"
-  },
-  {
-    "url": "/fork/game/?papas-burgeria",
-    "imageSrc": "https://play-lh.googleusercontent.com/rHJuY78XSJrhbaW39aYNhViggnzCgR5Zu-xfIx7Sga0Y3Tv3iIuGIIgvEMqfI5Kn",
-    "name": "Papa's Burgeria"
-  },
-  {
-    "url": "/fork/game/?papas-pancakeria",
-    "imageSrc": "papas-pancakeria/unnamed.png",
-    "name": "Papa's Pancakeria"
   },
   {
     "url": "/fork/0/g/couch2048/",
@@ -251,34 +136,9 @@
     "name": "Lazy Jump 3D"
   },
   {
-    "url": "adcap/",
-    "imageSrc": "adcap/upscaled.jpg",
-    "name": "AdVenture Capitalist"
-  },
-  {
     "url": "admin/fix/",
     "imageSrc": "admin/unamed.png",
     "name": "Admin"
-  },
-  {
-    "url": "./fnf/",
-    "imageSrc": "https://raw.githubusercontent.com/nate-games/ng-assets/main/fnf/game/fnf.avif",
-    "name": "Friday Night Funkin'"
-  },
-  {
-    "url": "./fnfmobile/",
-    "imageSrc": "https://raw.githubusercontent.com/nate-games/ng-assets/main/fnfmobile/game/splash.jpg",
-    "name": "FNF Mobile 📲"
-  },
-  {
-    "url": "./fnfneo/",
-    "imageSrc": "https://raw.githubusercontent.com/nate-games/ng-assets/main/fnfneo/game/splash.png",
-    "name": "FNF Neo"
-  },
-  {
-    "url": "fnfvsimposter/",
-    "imageSrc": "fnfvsimposter/unnamed.jpg",
-    "name": "FNF vs Imposter"
   },
   {
     "url": "./fnfmidfight/",
@@ -290,20 +150,11 @@
     "imageSrc": "./fnaf/game/splash.jpg",
     "name": "FNAF"
   },
-  {
-    "url": "./fnaf-webgl/",
-    "imageSrc": "./fnaf-webgl/game/splash.jpg",
-    "name": "FNAF (WebGL)"
-  },
+
   {
     "url": "./fnaf-2/",
     "imageSrc": "/fork/0/g/fnaf-2/game/splash.webp",
     "name": "FNAF 2"
-  },
-  {
-    "url": "./fnaf-2hacks/",
-    "imageSrc": "/fork/0/g/fnaf-2hacks/splash.png",
-    "name": "FNAF 2 (HACKS)"
   },
   {
     "url": "./fnaf-3/",
@@ -319,16 +170,6 @@
     "url": "./fnaf-4/",
     "imageSrc": "./fnaf-4/game/splash.webp",
     "name": "FNAF 4"
-  },
-  {
-    "url": "https://drive.google.com/file/d/1fe7lRYUed41rEim3aB_ml528_IwG11Pc/view",
-    "imageSrc": "https://play-lh.googleusercontent.com/u9wx5aNNV6Yn4sJpi7uPBiElRnfAp1zUrn8Xqb4Dx_WBoOPHlB6G6gaYLI-mEXyABPnz",
-    "name": "FNAF: Sister Location"
-  },
-  {
-    "url": "./fnaf-5/",
-    "imageSrc": "fnaf-5/splash.jpeg",
-    "name": "FNAF 5 Scratch"
   },
   {
     "url": "./fnaf-fp/",
@@ -349,11 +190,6 @@
     "url": "./particleclicker/",
     "imageSrc": "./particleclicker/game/splash.png",
     "name": "Particle Clicker"
-  },
-  {
-    "url": "/fork/game/?doge-miner",
-    "imageSrc": "./doge-miner/ymzwlane.bmp",
-    "name": "Doge Miner"
   },
   {
     "url": "./fruitninja/",
@@ -401,11 +237,6 @@
     "name": "Slither.io"
   },
   {
-    "url": "./slither-remake/",
-    "imageSrc": "./slither-remake/game/splash.png",
-    "name": "Slither.io (Remake)"
-  },
-  {
     "url": "./superhot/",
     "imageSrc": "./superhot/game/splash.jpg",
     "name": "Superhot"
@@ -414,11 +245,6 @@
     "url": "./shellshockers/",
     "imageSrc": "./shellshockers/game/egg.webp",
     "name": "Shell Shockers"
-  },
-  {
-    "url": "./krunker/",
-    "imageSrc": "./krunker/game/img/krunker-io.jpg",
-    "name": "Krunker"
   },
   {
     "url": "/fork/game/?repuls.io",
@@ -431,11 +257,6 @@
     "name": "Mad Gunz"
   },
   {
-    "url": "./valorant/",
-    "imageSrc": "./valorant/splash.webp",
-    "name": "Valorant"
-  },
-  {
     "url": "./doodle-jump/",
     "imageSrc": "./doodle-jump/game/doodle.png",
     "name": "Doodle Jump"
@@ -446,39 +267,9 @@
     "name": "Elastic Man"
   },
   {
-    "url": "pvz/",
-    "imageSrc": "https://static.wikia.nocookie.net/plantsvszombies/images/2/29/IPodTouchicon4.png",
-    "name": "Plants vs. Zombies"
-  },
-  {
     "url": "pvz-html/",
     "imageSrc": "https://static.wikia.nocookie.net/plantsvszombies/images/f/ff/Plantsvs.ZombiesFREEicon.png",
     "name": "Plants vs. Zombies [HTML]"
-  },
-  {
-    "url": "./BloonsTD/",
-    "imageSrc": "./BloonsTD/game/splash.webp",
-    "name": "BTD"
-  },
-  {
-    "url": "./BloonsTD2/",
-    "imageSrc": "./BloonsTD2/game/splash.webp",
-    "name": "BTD 2"
-  },
-  {
-    "url": "./BloonsTD3/",
-    "imageSrc": "./BloonsTD3/game/splash.webp",
-    "name": "BTD 3"
-  },
-  {
-    "url": "./BloonsTD4/",
-    "imageSrc": "./BloonsTD4/game/splash.jpg",
-    "name": "BTD 4"
-  },
-  {
-    "url": "./BloonsTD5/",
-    "imageSrc": "./BloonsTD5/game/splash.webp",
-    "name": "BTD 5"
   },
   {
     "url": "./thumb-fighter/",
@@ -489,11 +280,6 @@
     "url": "/projects/among-us/index.html",
     "imageSrc": "/projects/among-us/red.png",
     "name": "Among Us"
-  },
-  {
-    "url": "./among-us/offline/",
-    "imageSrc": "https://images.squarespace-cdn.com/content/v1/5a4c4ea9bff200d1651f1e04/1616180199194-9898XXJUBE8UTNEVIU3F/among-us-icon.jpeg?format=1000w",
-    "name": "Among Us Offline"
   },
   {
     "url": "stair-race3d/",
@@ -526,49 +312,14 @@
     "name": "OvO 3 - Dimensions"
   },
   {
-    "url": "nsmb/",
-    "imageSrc": "nsmb/dns.jpg",
-    "name": "New! Super Mario Bros"
-  },
-  {
     "url": "/fork/0/g/smb/",
     "imageSrc": "./smb/game/z7rn5clz.bmp",
     "name": "Super Mario Bros"
   },
   {
-    "url": "/fork/0/e/SNES/Super Mario World/",
-    "imageSrc": "/fork/0/e/SNES/Super Mario World/game/splash.jpg",
-    "name": "Super Mario World"
-  },
-  {
-    "url": "/fork/0/e/Nintendo 64/Mario Kart 64/",
-    "imageSrc": "/fork/0/e/Nintendo 64/Mario Kart 64/game/splash.jpg",
-    "name": "Mario Kart 64"
-  },
-  {
-    "url": "/fork/0/e/SNES/Super Mario Kart/",
-    "imageSrc": "/fork/0/e/SNES/Super Mario Kart/game/splash.jpg",
-    "name": "Super Mario Kart"
-  },
-  {
     "url": "./sm64/",
     "imageSrc": "sm64/splash.jpeg",
     "name": "Super Mario 64 (JavaScript)"
-  },
-  {
-    "url": "/fork/0/e/Nintendo 64/Super Mario 64/",
-    "imageSrc": "./sm64/game/splash.jpg",
-    "name": "Super Mario 64"
-  },
-  {
-    "url": "./sm63/",
-    "imageSrc": "./sm63/upscale.jpg",
-    "name": "Super Mario 63"
-  },
-  {
-    "url": "/fork/0/g/Undertale/",
-    "imageSrc": "/fork/0/g/Undertale/splash2.jpg",
-    "name": "Undertale"
   },
   {
     "url": "/fork/0/g/geodash/",
