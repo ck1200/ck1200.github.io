@@ -17,7 +17,7 @@ console.warn(
   // ====================================
   
   
-  var gaenabled = window.localStorage.getItem("ga");
+  /*var gaenabled = window.localStorage.getItem("ga");
   if (gaenabled == "false") {
     script("Skipped GA injection because it is disabled by the user.");
   } else {
@@ -31,7 +31,7 @@ console.warn(
     gtag('config', 'G-9N6C11NZ79');`;
     document.head.append(gascript, inlinegascript);
     script("Injected script 1/3");
-  }
+  }*/
 
 setIcon();
 
