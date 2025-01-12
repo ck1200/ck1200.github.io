@@ -20,6 +20,11 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
 }
+
+#tab {
+margin: 30px;
+}
+
 .flex-container {
   display: flex;
   flex-wrap: wrap;
@@ -186,7 +191,4 @@ h3 {
 
 .fa {font-size:50px;}
 
-#tab {
-margin: 30px;
-}
 
