@@ -1,11 +1,6 @@
 [
   {
-    "url": "/fork/game/?cluster-rush",
-    "imageSrc": "https://raw.githubusercontent.com/OutRed/outred-assets-cdn.outred.org/main/cluster-rush/splash.png",
-    "name": "Cluster Rush"
-  },
-  {
-    "url": "/fork/0/g/giag/",
+    "url": "giag/",
     "imageSrc": "https://img.itch.zone/aW1nLzQ1OTUwODcucG5n/original/Xdhfjt.png",
     "name": "Game inside a Game"
   },
@@ -15,52 +10,52 @@
     "name": "Tanuki Sunset"
   },
   {
-    "url": "/fork/0/g/bf3d/",
+    "url": "bf3d/",
     "imageSrc": "https://play-lh.googleusercontent.com/sMpJpTPMtTMr9tfusBtbWIz_h2UdX3iwx8Ea4w6vJ-0vyFILvpIMj_JvwVSeS6Xq0bg",
     "name": "Bottle Flip 3D"
   },
   {
-    "url": "/fork/0/g/slope/",
+    "url": "slope/",
     "imageSrc": "./slope/game/splash.jpg",
     "name": "Slope"
   },
   {
-    "url": "/fork/0/g/slope-2/",
+    "url": "slope-2/",
     "imageSrc": "./slope-2/game/splash.png",
     "name": "Slope 2"
   },
   {
-    "url": "/fork/0/g/tunnel-rush/",
+    "url": "tunnel-rush/",
     "imageSrc": "./tunnel-rush/game/splash.jpg",
     "name": "Tunnel Rush"
   },
   {
-    "url": "/fork/0/g/HexGL/",
+    "url": "HexGL/",
     "imageSrc": "./HexGL/game/icon_256.png",
     "name": "HexGL"
   },
   {
-    "url": "/fork/0/g/Hextris/",
+    "url": "Hextris/",
     "imageSrc": "./Hextris/game/images/icons/transparent-192.png",
     "name": "Hextris"
   },
   {
-    "url": "/fork/0/g/paperio2/",
+    "url": "paperio2/",
     "imageSrc": "./paperio2/game/splash.avif",
     "name": "Paper.io 2"
   },
   {
-    "url": "/fork/0/g/paperio3d/",
+    "url": "paperio3d/",
     "imageSrc": "./paperio3d/game/splash.jpg",
     "name": "Paper.io 3d"
   },
   {
-    "url": "/fork/0/g/flappybird/",
+    "url": "flappybird/",
     "imageSrc": "./flappybird/game/splash.png",
     "name": "Flappy Bird"
   },
   {
-    "url": "/fork/0/g/AngryBirds/",
+    "url": "AngryBirds/",
     "imageSrc": "./AngryBirds/game/AngryBirdsFavIcon_512x512.png",
     "name": "Angry Birds"
   },
@@ -86,7 +81,7 @@
   },
 
   {
-    "url": "/fork/0/g/minecraft/",
+    "url": "minecraft/",
     "imageSrc": "https://play-lh.googleusercontent.com/VSwHQjcAttxsLE47RuS4PqpC4LT7lCoSjE7Hx5AW_yCxtDvcnsHHvm5CTuL5BPN-uRTP",
     "name": "Minecraft"
   },
@@ -101,34 +96,24 @@
     "name": "Paper Minecraft"
   },
   {
-    "url": "/fork/0/g/minecraft-classic/",
+    "url": "minecraft-classic/",
     "imageSrc": "./minecraft-classic/game/splash.jpg",
     "name": "Minecraft Classic"
   },
   {
-    "url": "/fork/0/g/mchacks/",
+    "url": "mchacks/",
     "imageSrc": "./mchacks/game/bg_main.png",
     "name": "MC Classic (HACKS)"
   },
   {
-    "url": "/fork/0/g/couch2048/",
+    "url": "couch2048/",
     "imageSrc": "./couch2048/game/splash.jpg",
     "name": "Couch 2048 (Physics)"
   },
   {
-    "url": "/fork/game/?2048",
-    "imageSrc": "./2048/2048.png",
-    "name": "2048"
-  },
-  {
-    "url": "/fork/0/g/2048-multitask/",
+    "url": "2048-multitask/",
     "imageSrc": "./2048-multitask/game/splash.png",
     "name": "2048 Multitask"
-  },
-  {
-    "url": "/fork/game/?1",
-    "imageSrc": "./1/meta/apple-touch-icon.png",
-    "name": "1"
   },
   {
     "url": "lazyjump3d/",
@@ -153,7 +138,7 @@
 
   {
     "url": "./fnaf-2/",
-    "imageSrc": "/fork/0/g/fnaf-2/game/splash.webp",
+    "imageSrc": "fnaf-2/game/splash.webp",
     "name": "FNAF 2"
   },
   {
@@ -247,11 +232,6 @@
     "name": "Shell Shockers"
   },
   {
-    "url": "/fork/game/?repuls.io",
-    "imageSrc": "./repuls/repuls-io.jpg",
-    "name": "Repuls.io"
-  },
-  {
     "url": "./madgunz/",
     "imageSrc": "https://webglmath.github.io/mad-gunz/logo.png",
     "name": "Mad Gunz"
@@ -297,22 +277,22 @@
     "name": "Eggy Car"
   },
   {
-    "url": "/fork/0/g/ovo/",
+    "url": "ovo/",
     "imageSrc": "./ovo/game/icon-256.png",
     "name": "OvO"
   },
   {
-    "url": "/fork/0/g/ovo2/",
+    "url": "ovo2/",
     "imageSrc": "./ovo2/game/icons/icon-512.png",
     "name": "OvO 2"
   },
   {
-    "url": "/fork/0/g/ovo3/",
+    "url": "ovo3/",
     "imageSrc": "./ovo3/game/splash.avif",
     "name": "OvO 3 - Dimensions"
   },
   {
-    "url": "/fork/0/g/smb/",
+    "url": "smb/",
     "imageSrc": "./smb/game/z7rn5clz.bmp",
     "name": "Super Mario Bros"
   },
@@ -322,37 +302,37 @@
     "name": "Super Mario 64 (JavaScript)"
   },
   {
-    "url": "/fork/0/g/geodash/",
+    "url": "geodash/",
     "imageSrc": "./geodash/game/splash.png",
     "name": "Geometry Dash"
   },
   {
-    "url": "/fork/0/g/geodashscratch/",
+    "url": "geodashscratch/",
     "imageSrc": "./geodashscratch/game/splash.jpg",
     "name": "Geo Dash (Scratch)"
   },
   {
-    "url": "/fork/0/g/geodashsubzero/",
+    "url": "geodashsubzero/",
     "imageSrc": "https://play-lh.googleusercontent.com/QtW5CVMDs9zzbRW5L2QNMqcapOXCMsUiRxPe-eKwiR04L-DQf3gcW21GOglufcRj8A",
     "name": "Geometry Dash Subzero"
   },
   {
-    "url": "/fork/0/g/geodashmeltdown/",
+    "url": "geodashmeltdown/",
     "imageSrc": "./geodashmeltdown/game/splash.bmp",
     "name": "Geometry Dash Meltdown"
   },
   {
-    "url": "/fork/0/g/geodashworld/",
+    "url": "geodashworld/",
     "imageSrc": "https://play-lh.googleusercontent.com/eu0Lv1QtDbCdVvuphJh84zxKNURIEcXjmZPhAv4NM4Xacfjum9TspfYkzRcBKv4zpDk",
     "name": "Geometry Dash World"
   },
   {
-    "url": "/fork/0/g/greybox/",
+    "url": "greybox/",
     "imageSrc": "./greybox/game/splash.png",
     "name": "Grey-Box Testing"
   },
   {
-    "url": "/fork/0/g/pacman/",
+    "url": "pacman/",
     "imageSrc": "https://play-lh.googleusercontent.com/V-lvUzA5kK0Xw3wdg8Ct3vfIMXUX5vXYcNLPmudaZ-eyQjedYz-luqIuLmJO6KodE0Y",
     "name": "Original Pacman"
   },
@@ -362,8 +342,8 @@
     "name": "Pacman Doodle"
   },
   {
-    "url": "/fork/0/g/pacman-flash/",
-    "imageSrc": "/fork/0/g/pacman-flash/splash.png",
+    "url": "pacman-flash/",
+    "imageSrc": "pacman-flash/splash.png",
     "name": "Pacman (FLASH)"
   },
   {
@@ -372,27 +352,22 @@
     "name": "Pacman (NES)"
   },
   {
-    "url": "/fork/game/?gacha-club",
-    "imageSrc": "./gacha-club/5yoczcli.bmp",
-    "name": "Gacha Club"
-  },
-  {
-    "url": "/fork/0/g/baldisbasics/",
+    "url": "baldisbasics/",
     "imageSrc": "https://play-lh.googleusercontent.com/EPV1TB4So1lB0DGrdCVExDpNU8ML67nd8OqBeoOIM-s6sDicxmDdPvCXD6n7LKevFl0",
     "name": "Baldi's Basics"
   },
   {
-    "url": "/fork/0/g/alienhominid/",
+    "url": "alienhominid/",
     "imageSrc": "./alienhominid/game/alienhominid.jpg",
     "name": "Alien Hominid"
   },
   {
-    "url": "/fork/0/g/aquapark-slides/",
+    "url": "aquapark-slides/",
     "imageSrc": "./aquapark-slides/game/splash.png",
     "name": "Aquapark Slides"
   },
   {
-    "url": "/fork/0/g/helixjump/",
+    "url": "helixjump/",
     "imageSrc": "./helixjump/game/gameIcon.png",
     "name": "Helix Jump"
   },
@@ -427,68 +402,68 @@
     "name": "Cut the Rope: Time Travel"
   },
   {
-    "url": "/fork/0/g/bitlife/",
+    "url": "bitlife/",
     "imageSrc": "./bitlife/game/logo.png",
     "name": "BitLife"
   },
   {
-    "url": "/fork/0/g/n-gon/",
+    "url": "n-gon/",
     "imageSrc": "./n-gon/game/splash.png",
     "name": "N-GON"
   },
   {
-    "url": "/fork/0/g/monkeymart/",
-    "imageSrc": "/fork/0/g/monkeymart/game/splash.jpg",
+    "url": "monkeymart/",
+    "imageSrc": "monkeymart/game/splash.jpg",
     "name": "Monkey Mart"
   },
   {
-    "url": "/fork/0/g/adarkroom/",
-    "imageSrc": "/fork/0/g/adarkroom/game/splash.png",
+    "url": "adarkroom/",
+    "imageSrc": "adarkroom/game/splash.png",
     "name": "A Dark Room"
   },
   {
-    "url": "/fork/0/g/snowball.io/",
-    "imageSrc": "/fork/0/g/snowball.io/game/img/unnamed.png",
+    "url": "snowball.io/",
+    "imageSrc": "snowball.io/game/img/unnamed.png",
     "name": "Snowball.io"
   },
   {
-    "url": "/fork/0/g/hole.io/",
+    "url": "hole.io/",
     "imageSrc": "./hole.io/game/imgupscaler.jpg",
     "name": "Hole.io"
   },
   {
-    "url": "/fork/0/g/hole.io-scratch/",
+    "url": "hole.io-scratch/",
     "imageSrc": "./hole.io-scratch/game/scratch.png",
     "name": "Hole.io (Scratch)"
   },
   {
-    "url": "/fork/0/g/smashkarts/",
-    "imageSrc": "/fork/0/g/smashkarts/game/images/icon-512.png",
+    "url": "smashkarts/",
+    "imageSrc": "smashkarts/game/images/icon-512.png",
     "name": "Smash Karts"
   },
   {
     "url": "./draw-the-hill/",
-    "imageSrc": "/fork/0/g/draw-the-hill/game/icons/icon-512.png",
+    "imageSrc": "draw-the-hill/game/icons/icon-512.png",
     "name": "Draw the Hill"
   },
   {
-    "url": "/fork/0/g/retrobowl/",
+    "url": "retrobowl/",
     "imageSrc": "https://play-lh.googleusercontent.com/WRM5Y1xZmzcCP1YtO5zl6G2g7CU5c5ZfjX4UVrgi1bpNgkfy-wuB-bQx3kkeRfaGYQ",
     "name": "Retro Bowl"
   },
   {
     "url": "./fallguys/",
-    "imageSrc": "/fork/0/g/fallguys/game/splash.png",
+    "imageSrc": "fallguys/game/splash.png",
     "name": "Fall Guys"
   },
   {
     "name": "Stumble Guys",
-    "imageSrc": "/fork/0/g/Stumble Guys/splash.png",
+    "imageSrc": "Stumble Guys/splash.png",
     "url": "./Stumble Guys/"
   },
   {
     "name": "Zombs Royale",
-    "imageSrc": "/fork/0/g/zombs-royale/game/zomb.png",
+    "imageSrc": "zombs-royale/game/zomb.png",
     "url": "./zombs-royale/"
   },
   {
@@ -579,92 +554,87 @@
   {
     "name": "Vex 3",
     "imageSrc": "https://is1-ssl.mzstatic.com/image/thumb/Purple128/v4/87/06/4e/87064e7a-c9fd-7135-6ba3-f321f013e01e/mzl.kqcjsyop.png/512x512bb.jpg",
-    "url": "/fork/0/g/vex-3/"
+    "url": "vex-3/"
   },
   {
     "name": "Vex 4",
-    "imageSrc": "/fork/0/g/vex-4/unnamed.jpg",
-    "url": "/fork/0/g/vex-4/"
+    "imageSrc": "vex-4/unnamed.jpg",
+    "url": "vex-4/"
   },
   {
     "name": "Vex 5",
-    "imageSrc": "/fork/0/g/vex-5/game/vex.jpeg",
-    "url": "/fork/0/g/vex-5/"
+    "imageSrc": "vex-5/game/vex.jpeg",
+    "url": "vex-5/"
   },
   {
     "name": "Vex 6",
-    "imageSrc": "/fork/0/g/vex-6/game/assets/icon.jpeg",
-    "url": "/fork/0/g/vex-6/"
+    "imageSrc": "vex-6/game/assets/icon.jpeg",
+    "url": "vex-6/"
   },
   {
     "name": "Vex 7",
-    "imageSrc": "/fork/0/g/vex-7/game/assets/icon.jpeg",
-    "url": "/fork/0/g/vex-7/"
+    "imageSrc": "vex-7/game/assets/icon.jpeg",
+    "url": "vex-7/"
   },
   {
     "name": "Big Tower",
-    "imageSrc": "/fork/0/g/big-tower/splash.jpg",
-    "url": "/fork/0/g/big-tower/"
+    "imageSrc": "big-tower/splash.jpg",
+    "url": "big-tower/"
   },
   {
     "name": "Big Tower 2",
-    "imageSrc": "/fork/0/g/big-tower2/splash.jpg",
-    "url": "/fork/0/g/big-tower2/"
+    "imageSrc": "big-tower2/splash.jpg",
+    "url": "big-tower2/"
   },
   {
     "name": "Big Flappy Tower",
     "imageSrc": "https://is4-ssl.mzstatic.com/image/thumb/Purple125/v4/a1/31/91/a1319179-81e4-4fc5-9c23-5e9f64199966/source/512x512bb.jpg",
-    "url": "/fork/0/g/big-flappy-tower/"
+    "url": "big-flappy-tower/"
   },
   {
     "name": "Big Neon Tower",
-    "imageSrc": "/fork/0/g/big-neon-tower/unnamed.jpg",
-    "url": "/fork/0/g/big-neon-tower/"
+    "imageSrc": "big-neon-tower/unnamed.jpg",
+    "url": "big-neon-tower/"
   },
   {
     "name": "Duck Life",
     "imageSrc": "https://play-lh.googleusercontent.com/AUGkRrKMtUCLVE9vCvlfMY9Ny9EBqzx17yejVtEEhvpkw-H6lJlvBHgCMqPJm8HV_tM",
-    "url": "/fork/0/g/duck-life/"
+    "url": "duck-life/"
   },
   {
     "name": "Henry Stickmin",
-    "imageSrc": "/fork/0/g/hs/splash.bmp",
-    "url": "/fork/0/g/hs/"
+    "imageSrc": "hs/splash.bmp",
+    "url": "hs/"
   },
   {
     "name": "Henry Stickmin 2",
-    "imageSrc": "/fork/0/g/hs2/splash.bmp",
-    "url": "/fork/0/g/hs2/"
+    "imageSrc": "hs2/splash.bmp",
+    "url": "hs2/"
   },
   {
     "name": "Henry Stickmin 3",
-    "imageSrc": "/fork/0/g/hs3/splash.bmp",
-    "url": "/fork/0/g/hs3/"
+    "imageSrc": "hs3/splash.bmp",
+    "url": "hs3/"
   },
   {
     "name": "Henry Stickmin 4",
-    "imageSrc": "/fork/0/g/hs4/splash.bmp",
-    "url": "/fork/0/g/hs4/"
+    "imageSrc": "hs4/splash.bmp",
+    "url": "hs4/"
   },
   {
     "name": "Henry Stickmin 5",
-    "imageSrc": "/fork/0/g/hs5/splash.bmp",
-    "url": "/fork/0/g/hs5/"
+    "imageSrc": "hs5/splash.bmp",
+    "url": "hs5/"
   },
   {
     "name": "Awesome Tanks",
-    "imageSrc": "/fork/0/g/awesometanks/game/game.png",
-    "url": "/fork/0/g/awesometanks/"
+    "imageSrc": "awesometanks/game/game.png",
+    "url": "awesometanks/"
   },
   {
     "name": "Awesome Tanks 2",
-    "imageSrc": "/fork/0/g/awesometanks-2/game/game.png",
-    "url": "/fork/0/g/awesometanks-2/"
-  },
-  {
-    "name": "Wings.io",
-    "imageSrc": "/fork/0/g/wings.io/wings-io.png",
-    "url": "/fork/game/?wings.io"
+    "imageSrc": "awesometanks-2/game/game.png",
+    "url": "awesometanks-2/"
   },
   {
     "name": "1v1.space",
