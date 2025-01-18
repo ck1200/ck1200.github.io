@@ -1,103 +1,42 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
-
-  <title>Home | CK1200</title>
-  <meta content="Welcome to CK1200, your best option for unblocked games on the internet." name="description">
-  <meta content="CK1200" property="og:site_name" />
-  <meta name="author" content="CK1200" />
-  <meta content="front-end web developer, unblocked, games, google sites, unblocked games mom, ublocked, code, coding, programmer, development, javascript, jquery, bootstrap, sass, less, git, unblocked games, school, skool" name="keywords" />
-  <!-- Favicons -->
-  <link href="/favicon.ico" rel="icon">
-  <link href="/favicon.png" rel="apple-touch-icon">
-
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
-
-    <!-- Font Awesome -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
-  <!-- Vendor CSS Files -->
-  <link rel="stylesheet" href="/css/lib/bootstrap-3.4.1.min.css" />
-  <script src="/js/lib/jquery-3.6.0.min.js"></script>
-  <script src="/js/lib/bootstrap-3.4.1.min.js"></script>
-  <link rel="stylesheet" href="/fork/0/assets/css/games.css" />
-  <link rel="stylesheet" href="/fork/0/assets/css/home.css" />
-  <link rel="stylesheet" href="/css/projects.css" />
-  <link rel="stylesheet" href="/fork/0/assets/css/rainbow.css">
-
-  <!-- Template Main CSS File -->
-  <link rel="stylesheet" type="text/css" href="/css/index.css" />
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2141208627733238"
-     crossorigin="anonymous"></script>
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-7W25L6TVE3"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-7W25L6TVE3');
-</script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CK1200 - Home</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Roboto+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="global.css">
+    <link rel="stylesheet" href="home.css">
 </head>
 
 <body>
-  <header class="header">
-    <div class="logo">
-      <button class="menu-item" onclick="window.location.href='/'">
-        <img width="120" src="/Logo-lightC.png" alt="CK1200">
-      </button>
-    </div>
-    <nav class="menu">
-      <button class="menu-item" onclick="window.location.href='/fork/0/g/'">
-        Games
-      </button>
+    <nav>
+        <a href="index.html" class="logo-link">
+            <img src="logo.svg" alt="CK1200 Logo" class="logo">
+        </a>
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="games/">Games</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
     </nav>
-  </header>
-  <style>
-    select option,
-    .select2 {
-      background: rgba(0, 0, 0, 0.3);
-      color: #fff;
-    }
-  </style>
-  <div id="tab">
-    <b style="color: #fff;">Tab cloak:</b>
-    <select id="tabCloak" class="select2">
-      <option>Default</option>
-      <option>Schoology</option>
-      <option>Google Docs</option>
-      <option>Desmos</option>
-      <option>Desmos graphing</option>
-      <option>Google classroom</option>
-      <option>NoRedInk</option>
-      <option>Lexia Core5</option>
-      <option>Lexia PowerUp</option>
-      <option>Mathspace</option>
-      <option>Kahoot</option>
-      <option>Google Sheets</option>
-      <option>Google Slides</option>
-      <option>Google Sites</option>
-      <option>Google Forms</option>
-      <option>Google Drive</option>
-    </select>
-  </div>
-  <h1 id="title">
-    CK1200<br />
-    <span id="subtitle">...</span>
-  </h1>
-  <p class="text-center" id="start-menu">
-    Welcome to CK1200, your best option for unblocked games on the internet.<br />
-    <br />
-    Random words go deprecated</a><br />
-    <br />
-    <br />
-    <a href="/fork/0/g/"><button class="zoom" id="gs" >Start Gaming!</button></a> <br> <br>
-    <a href="https://bit.ly/CK1200"><button style="background-color: blueviolet;" class="zoom" id="gs" >New Website!</button></a><br />
-    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-  </p>
+
+    <main>
+        <section class="hero">
+            <h2>Welcome to CK1200</h2>
+            <p>Explore a curated collection of captivating games, ranging from timeless classics to innovative indie creations. Immerse yourself in thrilling adventures, test your skills, and discover new digital worlds to conquer. Start playing now and experience the excitement!</p>
+            <div class="cta-buttons">
+              <a href="games/" class="cta-button">View Games</a>
+              <a href="about.html" class="cta-button">Learn More</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>&copy; 2023 CK1200</footer>
 </body>
 
 </html>

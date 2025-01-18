@@ -2,134 +2,63 @@
 <html lang="en">
 
 <head>
-    <!-- Google Fonts -->
-    <link
-        href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
-        rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="/css/contact.css">
-    <title>Contact Us | Hypackel Games</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-        crossorigin="anonymous"></script>
+    <title>CK1200 - Contact</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Roboto+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="global.css">
+    <link rel="stylesheet" href="contact.css">
 </head>
 
 <body>
-    <header class="header">
-        <div class="logo">
-            <button class="menu-item" onclick="window.location.href='/'">
-                <img width="120" src="/Logo-lightC.png" alt="Hypackel">
-            </button>
-        </div>
-        <nav class="menu">
-            <button class="menu-item" onclick="window.location.href='/fork/0/g/'">
-                Games
-            </button>
-            <a class="rainbow_text_animated" style="font-size:3px;color: white;" href="https://discord.gg/EAxpQn2yZ4">
-                <button class="menu-item" onclick="window.location.href='https://discord.gg/EAxpQn2yZ4'">
-                    <h34 style="font-size:18px;" class="rainbow rainbow_text_animated">Discord</h34>
-                </button>
-            </a>
-        </nav>
-    </header>
-    <!-- ======= Contact Section ======= -->
-    <section id="contact" class="contact">
+    <nav>
+        <a href="index.html" class="logo-link">
+            <img src="logo.svg" alt="CK1200 Logo" class="logo">
+        </a>
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="games">Games</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
 
-        <div class="container" data-aos="fade-up">
+    <main>
+        <h1>Contact Us</h1>
+        <p>Have questions, feedback, or suggestions? We'd love to hear from you!</p>
 
-            <header class="section-header">
-                <h2>Contact</h2>
-                <p>Contact Us</p>
-            </header>
-
-            <div class="row gy-4">
-
-                <div class="col-lg-6">
-
-                    <div class="row gy-4">
-                        <div class="col-md-6">
-                            <div class="info-box">
-                                <i class="bi bi-geo-alt"></i>
-                                <h3>Address</h3>
-                                <p>Virginia<br>United States</p>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="info-box">
-                                <i class="bi bi-telephone"></i>
-                                <h3>Call Us</h3>
-                                <p>+1 (571) 766-8392</p>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="info-box">
-                                <i class="bi bi-envelope"></i>
-                                <h3>Email Us</h3>
-                                <p>contact@hypackel.com<br>support@hypackel.com</p>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="info-box">
-                                <i class="bi bi-clock"></i>
-                                <h3>Open Hours</h3>
-                                <p>Monday - Friday<br>7:40AM - 02:30PM</p>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-
-                <div class="col-lg-6">
-                    <form action="forms/contact.php" method="post" class="php-email-form">
-                        <div class="row gy-4">
-
-                            <div class="col-md-6">
-                                <input type="text" name="name" class="form-control" placeholder="Your Name" required>
-                            </div>
-
-                            <div class="col-md-6 ">
-                                <input type="email" class="form-control" name="email" placeholder="Your Email" required>
-                            </div>
-
-                            <div class="col-md-12">
-                                <input type="text" class="form-control" name="subject" placeholder="Subject" required>
-                            </div>
-
-                            <div class="col-md-12">
-                                <textarea class="form-control" name="message" rows="6" placeholder="Message"
-                                    required></textarea>
-                            </div>
-
-                            <div class="col-md-12 text-center">
-                                <div class="loading">Loading</div>
-                                <div class="error-message"></div>
-                                <div class="sent-message">Your message has been sent. Thank you!</div>
-
-                                <button type="submit">Send Message</button>
-                            </div>
-
-                        </div>
-                    </form>
-
-                </div>
-
+        <form action="https://formspree.io/f/movvrdql" method="POST">
+            <input type="hidden" name="_subject" value="CK1200 Contact form">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
             </div>
 
-        </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
 
-    </section><!-- End Contact Section -->
-    <script src="/js/main.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
-        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
-        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
-        crossorigin="anonymous"></script>
+            <div class="form-group">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+            </div>
+
+            <button type="submit">Send Message</button>
+        </form>
+
+        <div class="contact-info">
+            <h2>Other Ways to Connect</h2>
+            <ul>
+                <li>Email: <a href="mailto:info@ck1200.com">info@ck1200.com</a></li>
+                <li>Twitter: <a href="https://twitter.com/yourtwitterhandle" target="_blank">@yourtwitterhandle</a></li>
+                </ul>
+        </div>
+    </main>
+
+    <footer>&copy; 2023 CK1200</footer>
 </body>
 
 </html>
