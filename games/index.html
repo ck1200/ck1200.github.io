@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CK1200 - Games</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Roboto+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../global.css"> 
+    <link rel="stylesheet" href="games.css">
+</head>
+
+<body>
+    <nav>
+        <a href="../index.html" class="logo-link"> 
+            <img src="../logo.svg" alt="CK1200 Logo" class="logo"> 
+        </a>
+        <ul>
+            <li><a href="../index.html">Home</a></li> 
+            <li><a href="index.html">Games</a></li>
+            <li><a href="../about.html">About</a></li> 
+            <li><a href="../contact.html">Contact</a></li> 
+        </ul>
+    </nav>
+
+    <main id="gameContainer"></main>
+
+    <footer>&copy; 2023 CK1200</footer>
+
+    <script>
+        fetch('games.json')
+            .then(response => response.json())
+            .then(games => {
+                const gameContainer = document.getElementById('gameContainer');
+                games.forEach(game => {
+                    const gameDiv = document.createElement('div');
+                    gameDiv.className = 'game-container';
+
+                    gameDiv.innerHTML = `
+                        <a href="game.html?slug=${game.slug}" class="game-link">
+                            <img class="game-image" src="${game.imageSrc}" alt="${game.name}">
+                            <div class="game-content">
+                                <h2 class="game-name">${game.name}</h2>
+                            </div>
+                        </a>
+                    `;
+
+                    gameContainer.appendChild(gameDiv);
+                });
+            })
+            .catch(error => console.error('Error loading games:', error));
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,54 @@
+/* home.css */
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.hero {
+    text-align: center;
+    max-width: 900px;
+}
+
+.hero h2 {
+    font-size: 4rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+    text-shadow: 0 0 12px rgba(0, 100, 100, 0.5); /* Keep text shadow as is */
+    color: var(--text-color); /* Use CSS variable */
+}
+
+.hero p {
+    font-size: 1.4rem;
+    line-height: 1.9;
+    color: #ddd; /* This color isn't in the global variables. You can add it if you want to make it a global variable */
+    margin-bottom: 2.5rem;
+}
+
+.cta-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 2.5rem;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 1.2rem 2.5rem;
+    background-color: var(--accent-color); /* Use CSS variable */
+    color: var(--bg-color); /* Use CSS variable */
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: 600;
+    transition: background-color 0.3s, transform 0.2s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border: none;
+}
+
+.cta-button:hover {
+    background-color: #50c878; /* This color isn't in the global variables. You can add it if you want to make it a global variable */
+    transform: scale(1.03);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}

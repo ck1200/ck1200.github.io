@@ -1,0 +1,84 @@
+/* global.css */
+:root {
+    --bg-color: #0A192F; /* Deepest blue */
+    --card-bg: #0F294D; /* Slightly lighter blue */
+    --text-color: #CBD5E1; /* Light gray-blue */
+    --accent-color: #64CCC5; /* Teal green */
+    --border-color: #1E3A8A; /* Darker blue */
+    --shadow-color: rgba(0, 0, 0, 0.7);
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    overflow-x: hidden;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+nav {
+    background-color: rgba(54, 65, 86, 0.5); /* Semi-transparent card bg */
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    backdrop-filter: blur(8px);
+    border-bottom: 1px solid var(--border-color);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.logo {
+    height: 50px;
+}
+
+.logo-link {
+    display: flex;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin-left: 2.5rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--text-color);
+    font-weight: 600;
+    transition: color 0.3s, background-color 0.3s; /* Added background-color transition */
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+}
+
+nav a:hover {
+    color: var(--text-color);
+    background-color: rgba(33, 78, 52, 0.3); /* Darker green background on hover */
+}
+
+footer {
+    background-color: rgba(54, 65, 86, 0.5); /* Semi-transparent card bg */
+    color: var(--border-color);
+    text-align: center;
+    padding: 1rem 0;
+    backdrop-filter: blur(8px);
+    border-top: 1px solid var(--border-color);
+    font-family: 'Roboto Mono', monospace;
+}
+
+main {
+    flex-grow: 1;
+}

@@ -1,0 +1,93 @@
+/* games.css */
+main {
+    padding: 30px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    width: 96%;
+    max-width: 1400px;
+    margin: 0 auto;
+    gap: 20px;
+}
+
+.game-container {
+    background-color: var(--card-bg);
+    border: 1px solid var(--border-color);
+    box-shadow: 0 4px 8px var(--shadow-color);
+    transition: transform 0.3s, box-shadow 0.3s;
+    aspect-ratio: 1 / 1;
+    position: relative;
+    box-sizing: border-box;
+    padding: 12px;
+    overflow: hidden;
+    border-radius: 16px; /* Make sure this is present */
+}
+.game-container:hover {
+    transform: scale(1.03);
+    box-shadow: 0 8px 16px var(--shadow-color); /* Slightly stronger hover shadow */
+}
+
+.game-link {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.game-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: filter 0.3s;
+}
+
+.game-container:hover .game-image {
+    filter: brightness(1.1); /* Slightly brighter on hover */
+}
+
+.game-content {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: linear-gradient(to top, rgba(10, 25, 47, 0.8), transparent);
+    color: var(--text-color);
+    padding: 12px;
+    box-sizing: border-box;
+    text-align: left;
+    transition: transform 0.3s, opacity 0.3s;
+    transform: translateY(100%);
+    opacity: 0;
+}
+
+.game-container:hover .game-content {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+.game-name {
+    font-weight: 600;
+    font-size: 0.9rem;
+    margin-bottom: 0;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
+}
+
+.game-container:nth-child(4n + 1) .game-name {
+    color: var(--accent-color);
+}
+
+.game-container:nth-child(4n + 2) .game-name {
+    color: #81D8D0; /* A slightly lighter teal */
+}
+
+.game-container:nth-child(4n + 3) .game-name {
+    color: #4DB6AC; /* A darker teal */
+}
+
+.game-container:nth-child(4n + 4) .game-name {
+    color: #26A69A; /* A deep teal */
+}
