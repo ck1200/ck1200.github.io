@@ -21,7 +21,15 @@
         gtag('config', 'G-7W25L6TVE3');
     </script>
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2141208627733238"
-    crossorigin="anonymous"></script>
+        crossorigin="anonymous"></script>
+    <style>
+        #gameSearch {
+            padding: 8px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            margin-left: 20px;
+        }
+    </style>
 </head>
 
 <body>
@@ -35,6 +43,7 @@
             <li><a href="../about.html">About</a></li>
             <li><a href="../contact.html">Contact</a></li>
         </ul>
+        <input type="text" id="gameSearch" placeholder="Search games..." />
     </nav>
 
     <main id="gameContainer"></main>
@@ -42,27 +51,50 @@
     <footer>&copy; 2025 CK1200</footer>
 
     <script>
+        let gamesData = []; // Store games data here
+
         fetch('games.json')
             .then(response => response.json())
             .then(games => {
-                const gameContainer = document.getElementById('gameContainer');
-                games.forEach(game => {
-                    const gameDiv = document.createElement('div');
-                    gameDiv.className = 'game-container';
-
-                    gameDiv.innerHTML = `
-                        <a href="game.html?slug=${game.slug}" class="game-link">
-                            <img class="game-image" src="${game.imageSrc}" alt="${game.name}">
-                            <div class="game-content">
-                                <h2 class="game-name">${game.name}</h2>
-                            </div>
-                        </a>
-                    `;
-
-                    gameContainer.appendChild(gameDiv);
-                });
+                gamesData = games; // Store fetched games in gamesData
+                renderGames(gamesData); // Initial render
             })
             .catch(error => console.error('Error loading games:', error));
+
+        function renderGames(games) {
+            const gameContainer = document.getElementById('gameContainer');
+            gameContainer.innerHTML = ''; // Clear existing games
+
+            if (games.length === 0) {
+                gameContainer.innerHTML = '<p>No games found.</p>';
+                return;
+            }
+
+            games.forEach(game => {
+                const gameDiv = document.createElement('div');
+                gameDiv.className = 'game-container';
+
+                gameDiv.innerHTML = `
+                    <a href="game.html?slug=${game.slug}" class="game-link">
+                        <img class="game-image" src="${game.imageSrc}" alt="${game.name}">
+                        <div class="game-content">
+                            <h2 class="game-name">${game.name}</h2>
+                        </div>
+                    </a>
+                `;
+
+                gameContainer.appendChild(gameDiv);
+            });
+        }
+
+        const searchInput = document.getElementById('gameSearch');
+        searchInput.addEventListener('input', function (e) {
+            const searchTerm = e.target.value.toLowerCase();
+            const filteredGames = gamesData.filter(game => {
+                return game.name.toLowerCase().includes(searchTerm);
+            });
+            renderGames(filteredGames);
+        });
     </script>
 </body>
 

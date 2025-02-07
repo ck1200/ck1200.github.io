@@ -2,11 +2,12 @@
 main {
     padding: 30px;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(100px, 200px)); /* Updated for tile sizing */
     width: 96%;
     max-width: 1400px;
     margin: 0 auto;
     gap: 20px;
+    justify-content: center; /* Centers tiles on the page */
 }
 
 .game-container {
@@ -90,4 +91,29 @@ main {
 
 .game-container:nth-child(4n + 4) .game-name {
     color: #26A69A; /* A deep teal */
+}
+
+/* Search bar styling */
+#gameSearch {
+    padding: 8px 12px; /* Slightly larger padding for better touch area */
+    border: 1px solid var(--border-color); /* Use website's border color */
+    border-radius: 25px; /* More rounded corners for a softer look */
+    margin-left: 20px;
+    background-color: var(--card-bg); /* Match card background */
+    color: var(--text-color); /* Match text color */
+    font-family: 'Poppins', sans-serif; /* Use website's font */
+    font-size: 1rem; /* Adjust font size if needed */
+    transition: border-color 0.3s, box-shadow 0.3s; /* Smooth transitions for focus */
+    outline: none; /* Remove default focus outline */
+    box-shadow: 0 2px 4px var(--shadow-color); /* subtle shadow */
+}
+
+#gameSearch::placeholder {
+    color: var(--secondary-text-color); /* Use a slightly lighter text color for placeholder */
+    opacity: 0.8; /* Slightly faded placeholder */
+}
+
+#gameSearch:focus {
+    border-color: var(--accent-color); /* Highlight border on focus */
+    box-shadow: 0 4px 8px var(--accent-shadow-color); /* Stronger shadow on focus */
 }
